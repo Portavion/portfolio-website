@@ -1,0 +1,18 @@
+@layer base, utils, components;
+
+@import "./css/base.css"
+
+/* Utils */
+@import "./css/utils/box.css"
+
+/* Components */
+
+@import "./css/components/button.css"; /*[!code ++]*/
+@import "./css/components/typography.css"; /*[!code ++]*/
+
+@layer base {
+    :root {
+        --font-size: 18px;
+        --font-family: "JetBrainsMono", monospace;
+    }
+}

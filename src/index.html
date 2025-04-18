@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" data-webtui-theme="gruvbox-dark-medium">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,62 +8,138 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <!-- Place favicon.ico in the root directory -->
-
+        <link
+        rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@webtui/css/dist/base.css"
+              />
+              <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@webtui/css/dist/full.css"
+              />
     </head>
     <body>
 
+            <div class="row">
+            <div class="column1">
 
-        <header>
-            <nav>
-                <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><a href='#about'>About</a></li>
-                    <li><a href='#projects'>Projects</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                </ul>
-            </nav>
-        <header>
+                <div id="box" box-="round contain:!top">
+                    <main>
+                        <img class="pic" src="../assets/img/profile-pic.jpg"></img>
+                        <h1>
+                            <span>Guillaume Portalier</span>
+                            <span>
+                                <span>🇬🇧</span>
+                                <span>🇫🇷</span>
+                                <span>🇫🇷</span>
+                                <span>Based in London, UK</span>
+                                <span>I am 🥖 tho 🍷</span>
+                            </span>
+                        </h1>
 
+                        <div class='job-role'>
+                            <div>FULLSTACK</div>
+                            <div>DEVELOPER</div>
+                        </div>
 
-        <div class='hero-section' id="home">
-            <main>
-                <img src="../assets/img/profile-pic.jpg"></img>
-                <h1>
-                    <span>Guillaume Portalier</span>
-                    <span>
-                        <span>🇬🇧</span>
-                        <span>🇫🇷</span>
-                        <span>🇫🇷</span>
-                        <span>Based in London, UK</span>
-                        <span>I am 🥖 tho 🍷</span>
-                    </span>
-                </h1>
+                        <div class='button-container')>
+                            <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/mail-green.svg"/></a>
+                            <a href="https://www.linkedin.com/in/guillaumeportalier/" target="_blank"><img src="../assets/svg/linkedin-green.svg"/></a>
+                            <a href="https://github.com/Portavion" target="_blank"><img src="../assets/svg/github-green.svg"/></a>
+                            <a href="../assets/240417 - Guillaume Portalier Resume.pdf" target="_blank"><img src="../assets/svg/file-text-green.svg"/></a>
+                        </div>
 
-                <div class='job-role'>
-                    <div>FULLSTACK</div>
-                    <div>DEVELOPER</div>
+                    </main>
+            </div>
+
+            <div id="box" box-="round contain:!top">
+ <section id="technologies">
+                <div class='technologies'>
+                    <p class='title'>Tech Stack</p>
+                    <div class='logos'>
+                        <img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-typescript-blue?logo=typescript&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-postgresql-blue?logo=postgresql&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-python-blue?logo=python&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-html5-blue?logo=html5&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-css-blue?logo=css&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-react-blue?logo=react&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-nodejs-blue?logo=nodejs&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-fastapi-blue?logo=fastapi&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-pytest-blue?logo=pytest&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-jest-blue?logo=jest&logoColor=f5f5f5"/>
+                        <img src="https://img.shields.io/badge/logo-git-blue?logo=git&logoColor=f5f5f5"/>
+                    </div>
                 </div>
+            </section>
+            </div>
 
-                <div class='button-container')>
-                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/mail.svg"/></a>
-                    <a href="https://www.linkedin.com/in/guillaumeportalier/" target="_blank"><img src="../assets/svg/linkedin.svg"/></a>
-                    <a href="https://github.com/Portavion" target="_blank"><img src="../assets/svg/github.svg"/></a>
-                    <a href="../assets/240417 - Guillaume Portalier Resume.pdf" target="_blank"><img src="../assets/svg/file-text.svg"/></a>
+            <div id="box" box-="round contain:!top">
+                <div class='education-section'>
+                    <p class='title2'>Education</p>
+                    <img class='logo-school' src="../assets/img/newcastle.jpeg"></img>
+                            <div class='description'>
+                                <time>Apr 2019 - Sept 2024</time>
+                                <h2>Newcastle University</h2>
+                                <p>MSc in Transport Planning and Engineering</p>
+                            </div>
+                            <img class='logo-school' src="../assets/img/estp.png"></img>
+                            <div class='description'>
+                                <time>April 2018 - September 2019</time>
+                                <h2>ESTP</h2>
+                                <p>MSc in Civil Engineering</p>
+                            </div>
                 </div>
+            </div>
 
-            </main>
+            <div id="box" box-="round contain:!top">
+            <section id="contact">
+                <footer class='contact'>
+                    <div class='footer-header'>
+                        <p>Let's connect</p>
+                    </div>
 
-            <section></section>
-            <div class='empty'></div>
+                    <div class='footer-columns'>
+                        <div class='footer-nav'>
+                            <h3>Explore</h3>
+                            <ul>
+                                <li>
+                                    <a target="#home">About</a>
+                                </li>
+                                <li>
+                                    <a href="#projects">Projects</a>
+                                </li>
+                            </ul>
+                        </div>
 
-            <section id="experience">
+                        <div class='footer-connect'>
+                            <h3>Let's Connect</h3>
+                            <ul>
+                                <li>
+                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/mail.svg"/></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/linkedin.svg"/></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/github.svg"/></a>
+                                </li>
+                        </div>
+                    </div>
+                </footer>
+                <div>
+                    <p>Copyright 2024</p>
+                </div>
+            </section>
+
+            </div>
+
+            </div>
+            <div class="column">
+<section id="experience">
                 <p>Experience</p>
-                <div class='experience-selector'>
-                    <button>Work</button>
-                    <button>Education</button>
-                </div>
-
                 <div class='work-section'>
                     <ul>
                         <li>
@@ -102,53 +178,22 @@
                         </li>
                     </ul>
                 </div>
-                <div class='education-section'>
-                    <ul>
-                        <li>
-                            <img class='logo' src="../assets/img/newcastle.jpeg"></img>
-                            <div class='description'>
-                                <time>April 2019 - September 2024</time>
-                                <h2>Newcastle University</h2>
-                                <p>MSc in Transport Planning and Engineering</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img class='logo' src="../assets/img/estp.png"></img>
-                            <div class='description'>
-                                <time>April 2018 - September 2019</time>
-                                <h2>ESTP</h2>
-                                <p>MSc in Civil Engineering</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
             </section>
+
+
+            </div>
+
+            </div>
+        <div class='hero-section' id="home" box-='square'>
 
             <section></section>
             <div class='empty'></div>
 
-            <section id="technologies">
-                <div class='technologies'>
-                    <p>Tech Stack:</p>
-                    <div class='logos'>
-                        <img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-typescript-blue?logo=typescript&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-postgresql-blue?logo=postgresql&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-python-blue?logo=python&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-html5-blue?logo=html5&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-css-blue?logo=css&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-react-blue?logo=react&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-nodejs-blue?logo=nodejs&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-fastapi-blue?logo=fastapi&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-pytest-blue?logo=pytest&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-jest-blue?logo=jest&logoColor=f5f5f5"/>
-                        <img src="https://img.shields.io/badge/logo-git-blue?logo=git&logoColor=f5f5f5"/>
-                    </div>
-                </div>
-            </section>
 
             <section></section>
+            <div class='empty'></div>
+
+                       <section></section>
             <div class='empty'></div>
 
             <section id="projects">
@@ -196,45 +241,6 @@
             <section></section>
             <div class='empty'></div>
 
-            <section id="contact">
-                <footer class='contact'>
-                    <div class='footer-name'>
-                        <p>Guillaume</p>
-                        <p>Portalier</p>
-                    </div>
-
-                    <div class='footer-columns'>
-                        <div class='footer-nav'>
-                            <h3>Explore</h3>
-                            <ul>
-                                <li>
-                                    <a target="#home">About</a>
-                                </li>
-                                <li>
-                                    <a href="#projects">Projects</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class='footer-connect'>
-                            <h3>Let's Connect</h3>
-                            <ul>
-                                <li>
-                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/mail.svg"/></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/linkedin.svg"/></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:portalier.g@gmail.com" target="_blank"><img src="../assets/svg/github.svg"/></a>
-                                </li>
-                        </div>
-                    </div>
-                </footer>
-                <div>
-                    <p>Copyright 2024</p>
-                </div>
-            </section>
         </div>
 
 

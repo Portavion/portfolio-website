@@ -1,0 +1,72 @@
+body {
+  background-color: #282828;
+  color: #ebdbb2; /* Example: A light, low-saturation color */
+  padding: 1rem;
+}
+
+div, p , span, li {
+  color: #ebdbb2; /* Example: A light, low-saturation color */
+}
+
+button {
+    --button-primary: var(--gb-yellow);
+    --box-border-color: var(--gb-yellow);}
+
+a {
+    color: var(--gb-aqua)
+}
+
+img {
+    border-radius: 5px;
+}
+
+.pic {
+    height: 15ich;
+    width: 15ch;
+    margin-left: 1ch;
+}
+
+.logo {
+    height: 10ich;
+    width: 10ch;
+}
+
+.logo-school {
+    height: 5ich;
+    width: 5ch;
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+}
+
+.column {
+    float: left;
+    width: 80%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#box {
+    --box-border-color: var(--gb-yellow);
+}
+
+.title {
+    background-color: #282828;
+    width: 10ch;
+    margin-left: 2ch;
+}
+
+.title2 {
+    background-color: #282828;
+    width: 9ch;
+    margin-left: 2ch;
+}
+.footer-header {
+    background-color: #282828;
+    width: 13ch;
+    margin-left: 2ch;
+}
