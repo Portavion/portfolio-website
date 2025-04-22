@@ -199,7 +199,9 @@ time {
 
 .logos {
     padding: 2ch;
+    padding-left:30%
 }
+
 
 .hero {
     padding-top: 1ch;
@@ -251,8 +253,6 @@ time {
   left: 0;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
-  /* width: 100%; */
-  /* height: 100%; */
 }
 
 .profile-pic-flipper:hover .pic-hover {
