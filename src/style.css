@@ -1,21 +1,44 @@
+html {
+  height: 100%;
+}
 body {
   background-color: #282828;
   color: #ebdbb2; /* Example: A light, low-saturation color */
   padding: 1rem;
+  min-height: 100%;
 }
 
 div, p , span, li {
   color: #ebdbb2; /* Example: A light, low-saturation color */
 }
 
+li {
+    padding-top: 1ch;
+}
+
 button {
     --button-primary: var(--gb-yellow);
     --box-border-color: var(--gb-yellow);}
 
-a {
-    color: var(--gb-aqua)
+.discover{
+    --button-primary: var(--gb-yellow);
+    --box-border-color: var(--gb-aqua);
 }
 
+.discover:hover{
+    --button-primary: var(--gb-red);
+    --box-border-color: var(--gb-red);
+}
+
+a {
+    color: var(--gb-aqua);
+    text-decoration: none;
+}
+
+.discover:hover a {
+    color: var(--gb-red);
+    text-decoration: none;
+}
 img {
     border-radius: 5px;
 }
@@ -54,19 +77,184 @@ img {
     --box-border-color: var(--gb-yellow);
 }
 
+time {
+    font-size:12px;
+    color: var(--gb-aqua)
+}
+.h1 {
+    color: var(--gb-blue);
+}
+
+.h2 {
+    color: var(--gb-yellow);
+}
+
+.school{
+    display: flex;
+    align-items: center;
+    gap: 2ch;
+    padding-left: 1ch;
+    padding-top: 1ch;
+    padding-top: 1ch;
+}
+.experience{
+    display: flex;
+    align-items: center;
+    gap: 2ch;
+    padding-left: 1ch;
+    padding-top: 2ch;
+}
 .title {
     background-color: #282828;
-    width: 10ch;
+    width: 10.5ch;
     margin-left: 2ch;
 }
 
 .title2 {
     background-color: #282828;
-    width: 9ch;
+    width: 9.5ch;
     margin-left: 2ch;
 }
 .footer-header {
     background-color: #282828;
-    width: 13ch;
+    width: 13.5ch;
     margin-left: 2ch;
+}
+.experience-header {
+    background-color: #282828;
+    width: 10.5ch;
+    margin-left: 3ch;
+}
+
+.hero-container {
+    padding-top: 2ch;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.project-header {
+    background-color: #282828;
+    width: 8.5ch;
+    margin-left: 3ch;
+    display: flex;
+    align-items: center;
+}
+
+.project-container{
+    display: flex;
+    padding-left: 2ch;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3ch 0 3ch;
+}
+
+.project-technologies {
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
+.project-card p {
+    padding-bottom: 2ch;
+}
+
+.project {
+    font-size: 18px;
+    padding-bottom: 1ch;
+    color: var(--gb-red);
+}
+
+.project-img {
+    height: 266px;
+    padding-bottom: 1ch;
+}
+
+.footer {
+    color: #504945;
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 4ch;
+    padding-bottom: 4ch;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-container div {
+    padding-top:2ch;
+    padding-bottom:2ch;
+}
+
+.education-section{
+    margin-bottom: 2ch;
+}
+
+.logos {
+    padding: 2ch;
+}
+
+.hero {
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
+.language-switch {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.language-switch p {
+    margin: 0;
+    padding: 0;
+}
+
+.language-switch .french {
+  display: none;
+}
+
+.language-switch .english {
+  display: block;
+}
+
+.language-switch:hover .english {
+  display: none;
+}
+
+.language-switch:hover .french {
+  display: block;
+}
+
+.profile-pic-flipper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.profile-pic-flipper img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-pic-flipper .pic-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.profile-pic-flipper:hover .pic-hover {
+  opacity: 1;
 }
