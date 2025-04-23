@@ -280,6 +280,7 @@ time {
 
 .tech-stack span {
   width: auto;
+  padding-left: 1ch;
 }
 
 .tech-stack:hover {
