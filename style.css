@@ -265,11 +265,6 @@ time {
   opacity: 1;
 }
 
-.logos {
-  /* padding: 2ch; */
-  /* padding-left: 30%; */
-}
-
 .tech-stack {
   display: flex;
   align-items: center;
