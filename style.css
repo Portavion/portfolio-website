@@ -281,3 +281,94 @@ time {
 .tech-stack:hover {
   background-color: var(--gb-dark-fg4);
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .column1,
+  .column {
+    float: none;
+    width: 100%;
+  }
+
+  .project-container {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .project-card {
+    padding: 2ch 0;
+  }
+
+  .project-img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .school,
+  .experience {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1ch;
+  }
+
+  .pic {
+    height: 10ch;
+    width: 10ch;
+    margin: 0 auto;
+  }
+
+  .logo {
+    height: 8ch;
+    width: 8ch;
+  }
+
+  .logo-school {
+    height: 4ch;
+    width: 4ch;
+  }
+
+  .hero-container {
+    text-align: center;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container div {
+    padding: 1ch 0;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1ch;
+  }
+
+  .tech-stack {
+    width: 100%;
+    padding: 1ch;
+    box-sizing: border-box;
+  }
+
+  .tech-stack span {
+    padding-left: 0.5ch;
+  }
+}
+
+/* Additional responsive adjustments */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  .project {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+  }
+}
